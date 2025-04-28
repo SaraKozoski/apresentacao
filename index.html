@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio | Programador</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <style>
+    select {
+      padding: 4px 8px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 id="header-title">Meu Portfólio</h1>
+      <nav>
+        <a href="#inicio" id="nav-inicio">Início</a>
+        <a href="#sobre" id="nav-sobre">Sobre</a>
+        <a href="#projetos" id="nav-projetos">Projetos</a>
+        <a href="#habilidades" id="nav-habilidades">Habilidades</a>
+        <a href="#contato" id="nav-contato">Contato</a>
+      </nav>
+      <div style="text-align: right; padding: 10px;">
+        <label for="language-selector">🌐 Idioma: </label>
+        <select id="language-selector">
+          <option value="it">Italiano</option>
+          <option value="pt">Português</option>
+          <option value="en">English</option>
+        </select>
+      </div>
+    </div>
+  </header>
+
+  <div class="imagem-fundo">
+    <img src="Image/foto_fundo.jpeg" alt="é isso ai" class="imagem-1">
+  </div>
+
+  <section id="inicio" class="hero">
+    <img src="Image/image.png" alt="Foto do Programador">
+    <div class="hero-texto">
+      <h2 id="hero-title"></h2>
+      <h3 id="hero-subtitle"></h3>
+      <p id="hero-text"></p>
+    </div>
+  </section>
+
+  <section id="sobre" class="sobre">
+    <div class="container-sobre">
+      <div class="texto">
+        <h2 id="sobre-title2" class="titulo-sobre"></h2>
+        <p id="sobre-text2" class="texto-sobre"></p>
+       
+      </div>
+
+      <div class="carrossel">
+        <img src="Image/foto_projeto_2.jpeg" class="carrossel-img">
+        <img src="Image/foto_familia.jpeg" class="carrossel-img ">
+        <img src="Image/foto_projeto.jpeg" class="carrossel-img">
+        <img src="Image/foto_equipe.jpeg" class="carrossel-img ">
+        <img src="Image/foto_if.jpeg" class="carrossel-img">
+        <img src="Image/foto_banco.jpeg" class="carrossel-img ">
+
+      </div>
+
+    </div>
+
+   
+
+      <div class="texto_b">
+        <h2 id="sobre-title" class="titulo-sobre"></h2>
+        <p id="sobre-text" class="texto-sobre"></p>
+      </div>
+
+  </section>
+  
+
+
+
+  <section id="projetos" class="projetos">
+    <h2 id="projetos-title">Projetos em Destaque</h2>
+    <div class="projetos-grid">
+      <div class="card">
+        <img src="Image/Beathub.png" alt="Projeto 1" class="img-projeto">
+        <h3>BeatHub</h3>
+        <p> Il sito web di un negozio di musica</p>
+        <a href="https://github.com/spricigom/BeatHub">🔗 Ver Projeto</a>
+        <h3>Tecnologias Utilizadas</h3>
+        <div class="card-icon">
+          <img src="Image/icones/vuejs.png" alt="" class="icon-card">
+          <img src="Image/icones/css.png" alt="" class="icon-card">
+          <img src="Image/icones/supabese.png" alt="" class="icon-card">
+          <img src="Image/icones/git.png" alt="" class="icon-card">
+          <img src="Image/icones/html.png" alt="" class="icon-card">
+          <img src="Image/icones/js.png" alt="" class="icon-card">
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="Image/Santo Pao.png" alt="Projeto 2" class="img-projeto">
+        <h3>Santo Pão</h3>
+        <p>Un sito di panetteria </p>
+        <a href="https://github.com/917rafael/hackaton">🔗 Ver Projeto</a>
+        <h3>Tecnologias Utilizadas</h3>
+        <div class="card-icon">
+          <img src="Image/icones/vuejs.png" alt="" class="icon-card">
+          <img src="Image/icones/css.png" alt="" class="icon-card">
+          <img src="Image/icones/supabese.png" alt="" class="icon-card">
+          <img src="Image/icones/git.png" alt="" class="icon-card">
+          <img src="Image/icones/html.png" alt="" class="icon-card">
+          <img src="Image/icones/js.png" alt="" class="icon-card">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="habilidades" class="habilidades">
+    <h2 id="habilidades-title">Habilidades</h2>
+    <div class="habilidades-grid">
+      <img src="Image/icones/vuejs.png" alt="" class="icones">
+      <img src="Image/icones/css.png" alt="" class="icones">
+      <img src="Image/icones/supabese.png" alt="" class="icones">
+      <img src="Image/icones/git.png" alt="" class="icones">
+      <img src="Image/icones/html.png" alt="" class="icones">
+      <img src="Image/icones/js.png" alt="" class="icones">
+      <img src="Image/icones/python.png" alt="" class="icones">
+    </div>
+  </section>
+
+  <footer>
+    <div>
+      <h2 id="contato-title">Contato</h2>
+    </div>  
+    <div class="footer-grid">
+     <div>
+      <p id="contato-text"> +39 333 684 8327</p>
+     </div>
+     <div>
+      sarakozoski@gmail.com
+    </div>
+    </div>
+     <div>
+      <p id="footer-text">© 2025 Sara Kozoski — Tutti i diritti riservati.</p>
+     </div>
+   
+  </footer>
+
+</body>
+</html>
